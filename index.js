@@ -1,3 +1,6 @@
+// Updated for Node.js v22 compatibility
+// This file contains the client-side login validation logic.
+
 function validateLogin() {
   const email = document.getElementById("email").value.trim();
   const password = document.getElementById("password").value.trim();
